@@ -6,6 +6,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddDonor from './components/AddDonor'
 import ViewDonor from './components/ViewDonor'
+import HomePage from './components/HomePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
 
         <Routes>
 
+          <Route path='/home' element={<HomePage />} />
           <Route path='/' element={<AddDonor />} />
           <Route path='/view' element={<ViewDonor />} />
 
