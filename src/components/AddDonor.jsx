@@ -55,20 +55,20 @@ const AddDonor = () => {
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                        <div className="row">
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                        <div className="row g-3">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Donar Name: </label>
                                 <input type="text" className="form-control" name="donar_name" value={input.donor_name} onChange={inputHandler}/>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Age: </label>
                                 <input type="number" className="form-control" name="age" value={input.age} onChange={inputHandler}/>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Gender: </label>
                                 <select name="" id="" className="form-control" name="gender" value={input.gender} onChange={inputHandler}>
@@ -78,7 +78,7 @@ const AddDonor = () => {
                                 </select>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Blood Group: </label>
                                 <select name="" id="" className="form-control" name="blood_group" value={input.blood_group} onChange={inputHandler}>
@@ -94,37 +94,37 @@ const AddDonor = () => {
                                 </select>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Phone: </label>
                                 <input type="text" className="form-control" name="phone" value={input.phone} onChange={inputHandler} />
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Email: </label>
                                 <input type="email" name="" id="" className="form-control" name="email" value={input.email} onChange={inputHandler}/>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">City: </label>
                                 <input type="text" className="form-control" name="city" value={input.city} onChange={inputHandler}/>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Weight(kg): </label>
                                 <input type="number" name="" id="" className="form-control" name="weight_kg" value={weight_kg} onChange={inputHandler}/>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Last Donation date: </label>
                                 <input type="date" name="" id="" className="form-control" name="last_donation_date" value={input.last_donation_date} onChange={inputHandler}/>
 
                             </div>
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                                 <button className="btn btn-success" onClick={readValue}>Submit</button>
 
